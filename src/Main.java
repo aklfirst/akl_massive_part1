@@ -56,35 +56,46 @@ public class Main {
 
 // Домашнее Задание - 2
         for (int i = 0; i < simple.length; i++) {
-        System.out.print(simple[i] + ",");}
+            int comma = simple.length - 1;
+            if (i == comma) {
+                System.out.print(simple[i]);}
+                else System.out.print(simple[i] + ",");}
         System.out.println();
 
         for (int i1 = 0; i1 < simple2.length; i1++) {
-            System.out.print(simple2[i1]+",");}
+            int comma1 = simple2.length - 1;
+            if (i1 == comma1) {
+                System.out.print(simple2[i1]);}
+            else System.out.print(simple2[i1]+",");}
             System.out.println();
 
         for (int i2 = 0; i2 < simple3.length; i2++) {
-            System.out.print(simple3[i2] + ",");}
+            int comma2 = simple3.length -1;
+            if (i2 == comma2) { System.out.print(simple3[i2]);}
+            else System.out.print(simple3[i2] + ",");}
             System.out.println();
 
 // Домашнее задание 3
         for (int i = simple.length-1; i >= 0; i--) {
-            System.out.print(simple[i] + ",");}
+            if (i == 0) {System.out.print(simple[i]);}
+            else System.out.print(simple[i] + ",");}
         System.out.println();
 
         for (int i1 = simple2.length-1; i1 >= 0; i1--) {
-            System.out.print(simple2[i1] + ",");}
+            if (i1 ==0) { System.out.print(simple2[i1]);}
+            else System.out.print(simple2[i1] + ",");}
         System.out.println();
 
         for (int i2 = simple3.length-1; i2 >= 0; i2--) {
-            System.out.print(simple3[i2] + ",");}
+            if (i2==0){ System.out.print(simple3[i2]);}
+            else System.out.print(simple3[i2] + ",");}
         System.out.println();
 
 // Домашнее задание 4
         for (int i = 0; i < simple.length; i++) {
-            if (simple[i] % 2 !=0) {
+           if (simple[i] % 2 !=0) {
                 simple[i]++;}
-            System.out.print(simple[i] + ",");}
+           System.out.print(simple[i] + ",");}
         System.out.println();
 
 
